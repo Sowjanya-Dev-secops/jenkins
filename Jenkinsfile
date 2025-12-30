@@ -22,6 +22,7 @@ pipeline {
         timeout(time: 10, unit: 'SECONDS')
         disableConcurrentBuilds() 
     }
+    # checkin for git trigger
     stages {
         stage('Build') {
             steps {
