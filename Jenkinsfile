@@ -31,13 +31,9 @@ pipeline {
                        echo $COURSE
                        #sleep 10
                        echo "Hello ${params.PERSON}"
-
                        echo "Biography: ${params.BIOGRAPHY}"
-
                        echo "Toggle: ${params.TOGGLE}"
-
                        echo "Choice: ${params.CHOICE}"
-
                        echo "Password: ${params.PASSWORD}"
                     """
                 }
