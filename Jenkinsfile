@@ -39,6 +39,7 @@ pipeline {
                 }
             }
         }
+        // poll scm
         stage('Test') {
             steps {
                 script{
